@@ -21,6 +21,7 @@
 		F9097926184A90D200A8BF5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9097908184A90D200A8BF5A /* UIKit.framework */; };
 		F909792E184A90D200A8BF5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F909792C184A90D200A8BF5A /* InfoPlist.strings */; };
 		F9097930184A90D200A8BF5A /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F909792F184A90D200A8BF5A /* Passing_Data_Challenge_SolutionTests.m */; };
+		F909793B184A91AA00A8BF5A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F909793A184A91AA00A8BF5A /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F909792B184A90D200A8BF5A /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		F909792D184A90D200A8BF5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F909792F184A90D200A8BF5A /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		F9097939184A91AA00A8BF5A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F909793A184A91AA00A8BF5A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				F9097913184A90D200A8BF5A /* AppDelegate.h */,
 				F9097914184A90D200A8BF5A /* AppDelegate.m */,
 				F9097916184A90D200A8BF5A /* Main.storyboard */,
+				F9097939184A91AA00A8BF5A /* DetailViewController.h */,
+				F909793A184A91AA00A8BF5A /* DetailViewController.m */,
 				F9097919184A90D200A8BF5A /* ViewController.h */,
 				F909791A184A90D200A8BF5A /* ViewController.m */,
 				F909791C184A90D200A8BF5A /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				F909791B184A90D200A8BF5A /* ViewController.m in Sources */,
 				F9097915184A90D200A8BF5A /* AppDelegate.m in Sources */,
 				F9097911184A90D200A8BF5A /* main.m in Sources */,
+				F909793B184A91AA00A8BF5A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
